@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨Viet's Foodies✨</title>
+</head>
+<body>
+    <center>
+        <div>
+            <header>
+                <br><br>
+                <a href="index.html"><font size="100" color="#f5a35d" ><b>✨Viet's Foodies✨</b></font></a>
+            </header>
+        </div>
+    </center>
+<br>
+<hr>
+
+<body>
+    <center>
+    <section id="form-order" width="500px">
+        <h1>🛒 Order Form 🛒</h1>
+  
+        <form action="form-processing" method="post" id="item-list">
+          <fieldset>
+            <legend><strong>PERSONAL INFORMATION</strong></legend>
+            <label for="fname">First name: </label>
+            <input type="text" id="fname" name="First name" required>
+            <br>
+            <br>
+            <label for="lname">Last name: </label>
+            <input type="text" id="lname" name="Last name" required>
+            <br>
+            <br>
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="dob" name="Date of birth" required>
+            <br>
+          </fieldset>
+
+          <br>
+          <br>
+
+          <fieldset>
+            <legend><strong>SHIPPING INFORMATION</strong></legend>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="Address" required>
+            <br>
+            <br>
+            <label for="district">District:</label>
+            <select name="District" id="district">
+              <option value="">Select the district</option>
+              <option value="1">District 1</option>
+              <option value="2">District 2</option>
+              <option value="3">District 3</option>
+            </select>
+
+            <br>
+            <br>
+            <label for="city">City:</label>
+            <select name="City" id="city">
+              <option value="">Select a city</option>
+              <option value="HCMC">Ho Chi Minh</option>
+              <option value="Hanoi">Ha Noi</option>
+              <option value="Da Nang">Da Nang</option>
+            </select>
+
+            <br>
+            <br>
+            <label for="postcode">Postcode</label>
+            <input type="text" id="postcode" name="Postcode" required>
+            <br>
+            <br>
+            <label for="PhoneNumber">PhoneNumber</label>
+            <input type="text" id="PhoneNumber" name="PhoneNumber" required>
+          </fieldset>
+
+          <br>
+          <br>
+          <fieldset>
+            <legend><strong>PURCHASE OPTIONS</strong></legend>
+            <p><strong>Select product(s): </strong></p>
+            <table>
+              <tr>
+                <td>
+                  <input type="checkbox" name="Product" value="Phở"> Phở <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Bánh Mì"> Bánh Mì <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Cơm Tấm"> Cơm Tấm <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Bún Riêu"> Bún Riêu <br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <input type="checkbox" name="Product" value="Bún Bò"> Bún Bò <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Cao Lầu"> Cao Lầu <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Mì Quảng"> Mì Quảng <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Bánh Căn"> Bánh Căn <br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <input type="checkbox" name="Product" value="Bánh Xèo"> Bánh Xèo <br>
+                  </td>
+  
+                  <td>
+                    <input type="checkbox" name="Product" value="Bún Chả"> Bún Chả <br>
+                  </td>
+  
+                  <td>
+                    <input type="checkbox" name="Product" value="Bún Đậu"> Bún Đậu <br>
+                  </td>
+  
+                  <td>
+                    <input type="checkbox" name="Product" value="Hủ Tiếu"> Hủ Tiếu <br>
+                  </td>
+              </tr>
+            
+            </table>
+          </fieldset>
+
+          <br>
+          <br>     
+            <input type="submit" value="Order Now!">
+        </form>
+      </section>
+    </center>
+</body>
+<footer>
+    <br>
+    <br>
+    <br>
+</footer>
+</body>
+</html>
